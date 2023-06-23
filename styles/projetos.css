@@ -3,7 +3,7 @@
 }
 
 .portfolio {
-    background-image: url(/projeto_css/imagens/Screenshot.png);
+    background-image: url(/portfolio/img/projetoCss.png);
     background-size: cover;
 }
 
@@ -13,7 +13,7 @@
 }
 
 .beta {
-    background-image: url(/portfolio_beta/imagens/portolioBeta.png);
+    background-image: url(/portfolio/img/portolioBeta.png);
     background-size: cover;
 }
 
