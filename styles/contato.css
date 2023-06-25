@@ -2,13 +2,10 @@
     background-color: #352728;
 }
 
-.centralizar {
-    text-align: center;
+.contato {
+    padding-top: 93px;
 }
 
-.contato {
-    color: white;
-    font-family: 'Quando', serif;
-    font-size: 15px;
-    padding-bottom: 50px;
+.contato h2, .contato a {
+    text-align: center;
 }
