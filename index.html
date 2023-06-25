@@ -1,40 +1,42 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 
 <head>
     <title>Portfólio | William Vianna</title>
-    <meta charset="UTF-8"/>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Portfolio Front-End">
     <meta name="author" content="William Vianna">
-    <meta name="keywords" content="html, css, javascript">
-    
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+
     <script src="https://unpkg.com/scrollreveal"></script>
-    
-    <link rel="icon" type="image/x-icon" href="/portfolio/img/eu-icone-310x310.png"/>
-    <!-- Navegação e Início -->
-    <link rel="stylesheet" href="/portfolio/styles/navegacao-inicio.css"/>
+
+    <link rel="icon" type="image/x-icon" href="./imagens/wv-icone-310x310.png">
+    <!-- Navegação e início -->
+    <link rel="stylesheet" href="./styles/navegacao-inicio.css">
     <!-- Sobre mim -->
-    <link rel="stylesheet" href="/portfolio/styles/sobre-mim.css"/>
+    <link rel="stylesheet" href="./styles/sobre-mim.css">
     <!-- Projetos -->
-    <link rel="stylesheet" href="/portfolio/styles/projetos.css"/>
+    <link rel="stylesheet" href="./styles/projetos.css">
     <!-- Habilidades -->
-    <link rel="stylesheet" href="/portfolio/styles/habilidades.css"/>
+    <link rel="stylesheet" href="./styles/habilidades.css">
     <!-- Contato -->
-    <link rel="stylesheet" href="/portfolio/styles/contato.css"/>
-    <!-- Footer -->
-    <link rel="stylesheet" href="/portfolio/styles/footer.css"/>
+    <link rel="stylesheet" href="./styles/contato.css">
+    <!-- footer -->
+    <link rel="stylesheet" href="./styles/footer.css">
 </head>
 
 <body onload="typeWriter(fName);">
     <div>
-
-        <!-- Menu -->
-        <input id="close-menu" class="close-menu" type="checkbox" aria-label="close-menu" role="button"/>
+        <!-- menu -->
+        <input id="close-menu" class="close-menu" type="checkbox" aria-label="close-menu" role="button">
         <label class="close-menu-label" for="close-menu" title="close menu"></label>
         <div class="barra">
             <div class="menu-centro">
                 <div class="barra-conteiner centralizador">
                     <div class="logo esquerda">
+                        <!--<a href="index.html"><img src="./imagens/logo.png" alt="logo"></a>-->
                     </div>
                     <nav class="direita">
                         <ul onclick="getElementById('close-menu').checked=false;">
@@ -49,48 +51,48 @@
             </div>
         </div>
 
-        <!-- Primeira tela -->
+        <!-- primeira tela -->
         <section id="inicio">
             <div class="altura-ajuste">
                 <div class="inicio centralizador">
                     <div class="ajustador organizador">
                         <div class="apresentacao">
                             <p class="descricao">
-                                Oi, eu sou <br/>
-                                <span style="display: inline" class="meu-nome">William Vianna.</span>
-                                <br/>
+                                Oi, eu sou <br>
+                                <span style="display: inline" class="meu-nome">William Vianna!</span>
+                                <br>
                                 <!-- Desenvolvedor Full Stack -->
-                                Desenvolvedor Front-End
+                                Desenvolvedor Front-End.
                             </p>
-                            <br/>
+                            <br>
                             <div class="linkedin">
                                 <a href="https://www.linkedin.com/in/william-vianna-218b7b71/" target="_blank"
                                     class="link">Linkedin</a>
                             </div>
                         </div>
                         <div class="desenho">
-                            <img class="desenho2" src="/portfolio/img/euprincipal.png" alt="Eu-em-desenho"/>
+                            <img class="desenho2" src="./imagens/eu.png" alt="Eu-em-desenho">
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Sobre mim -->
+        <!-- sobre mim -->
         <section id="sobre-mim">
             <div class="centralizador">
                 <div class="ajustador-2">
                     <div class="avatar">
-                        <img class="desenho-bg" src="/portfolio/img/avatar.png" alt="avatar"/>
+                        <img class="desenho-bg" src="./imagens/avatar.png" alt="avatar">
                         <div class="circulo-conteiner">
-                            <img class="circulo css" src="/portfolio/img/css-circle.png" alt="css"/>
-                            <img class="circulo html" src="/portfolio/img/html-circle.png" alt="css"/>
-                            <img class="circulo js" src="/portfolio/img/js-circle.png" alt="js"/>
+                            <img class="circulo css" src="./imagens/css-circle.png" alt="css">
+                            <img class="circulo html" src="./imagens/html-circle.png" alt="css">
+                            <img class="circulo js" src="./imagens/js-circle.png" alt="js">
                         </div>
                     </div>
                     <div class="sobre-mim">
                         <h2>Sobre mim</h2>
-                        <br/>
+                        <br>
                         <p>
                             Meu nome é William Vianna e eu sou um apaixonado
                             por tecnologia, que decidiu trilhar o caminho da
@@ -98,9 +100,9 @@
                             Desenvolvimento Web. Trabalhei com projetos
                             envolvendo gestão educacional, APIs e banco de
                             dados. Atualmente estou focando nas tecnologias
-                            voltadas ao FrontEnd.
+                            voltadas ao Front-End.
                         </p>
-                        <br/>
+                        <br>
                         <p>
                             Hoje já entendo tecnologias como ReactJS,
                             Bootstrap, Mysql, etc.
@@ -115,24 +117,41 @@
             <div class="centralizador projetos">
                 <h2 class="project">Projetos</h2>
                 <div class="projetos-itens">
-                    <a href="https://projeto-css.netlify.app/" target="_blank">
-                        <div class="pro portfolio"></div>
-                    </a>
+                    <div><a href="https://projeto-css.netlify.app/" target="_blank">
+                        <div class="pro projetocss"></div> </a>
+                    </div>
 
-                    <a href="https://curriculo-william.netlify.app/" target="_blank">
-                        <div class="curri curriculo"></div>
-                    </a>
+                    <div><a href="https://curriculo-william.netlify.app/" target="_blank">
+                        <div class="pro curriculo"></div> </a>
+                    </div>
 
-                    <a href="https://portfoliobeta-william.netlify.app/" target="_blank">
-                        <div class="bet beta"></div>
-                    </a>
+                    <div><a href="https://portfoliobeta-william.netlify.app/" target="_blank">
+                        <div class="pro beta"></div> </a>
+                    </div>
+                    
+                    <div class="pro escondido">
+                        <div class="breve">
+                            <p>EM BREVE</p>
+                        </div>
+                    </div>
+                    <div class="pro escondido">
+                        <div class="breve">
+                            <p>EM BREVE</p>
+                        </div>
+                    </div>
+                    <div class="pro escondido">
+                        <div class="breve">
+                            <p>EM BREVE</p>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="github-link">
+                    <button>Ver mais</button>
                     <a href="https://github.com/viannawp?tab=repositories" target="_blank">Repositórios no github</a>
                 </div>
             </div>
-        </section> 
+        </section>
 
         <!-- Habilidades -->
         <section id="habilidades">
@@ -142,42 +161,41 @@
                     <div class="skills-descricao">
                         <div class="conteiner-skills">
                             <div class="skill-box skill1 html-skill">
-                                <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank"> <img class="icones-habilidades" src="/portfolio/img/html.svg" alt="html-icon"/> </a>
+                                <img class="icones-habilidades" src="./imagens/html.svg" alt="html-icon">
                             </div>
                             <div class="skill-box skill2 css-skill">
-                                <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS/" target="_blank"> <img class="icones-habilidades" src="/portfolio/img/css.svg" alt="css-icon"/> </a>
+                                <img class="icones-habilidades" src="./imagens/css.svg" alt="css-icon">
                             </div>
                             <div class="skill-box skill3 js-skill">
-                                <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/" target="_blank"> <img class="icones-habilidades" src="/portfolio/img/js.svg" alt="js-icon"/> </a>
+                                <img class="icones-habilidades" src="./imagens/js.svg" alt="js-icon">
                             </div>
-                            <!-- <div class="skill-box skill4"> <img class="icones-habilidades" src="/assets/img/node.svg" alt="node-icon"> </div>
-                            <div class="skill-box skill5"> <img class="icones-habilidades" src="/assets/img/php.svg" alt="php-icon"> </div>
-                            <div class="skill-box skill6"> <img class="icones-habilidades" src="/assets/img/java.svg" alt="java-icon"> </div>
+                            <!-- <div class="skill-box skill4"> <img class="icones-habilidades" src="./imagens/node.svg" alt="node-icon"> </div>
+                            <div class="skill-box skill5"> <img class="icones-habilidades" src="./imagens/php.svg" alt="php-icon"> </div>
+                            <div class="skill-box skill6"> <img class="icones-habilidades" src="./imagens/java.svg" alt="java-icon"> </div>
                             
-                            <div class="skill-box skill8"> <img class="icones-habilidades" src="/assets/img/sql.svg" alt="sql-icon"> </div> -->
+                            <div class="skill-box skill8"> <img class="icones-habilidades" src="./imagens/sql.svg" alt="sql-icon"> </div> -->
                             <div class="skill-box skill7">
-                                <a href="https://pt-br.legacy.reactjs.org/docs/getting-started.html" target="_blank"> <img class="icones-habilidades" src="/portfolio/img/react.svg" alt="react-icon"/> </a>
+                                <img class="icones-habilidades" src="./imagens/react.svg" alt="react-icon">
                             </div>
                             <div class="skill-box skill8">
-                                <a href="https://styled-components.com/" target="_blank"> <img class="icones-habilidades" src="/portfolio/img/styled 1.svg" alt="styled-icon"/> </a>
+                                <img class="icones-habilidades" src="./imagens/styled 1.svg" alt="react-icon">
                             </div>
                             <div class="skill-box skill13 sass-skill">
-                                <a href="https://sass-lang.com/" target="_blank"> <img class="icones-habilidades" src="/portfolio/img/sass.svg" alt="sass-icon"/> </a>
+                                <img class="icones-habilidades" src="./imagens/sass.svg" alt="sass-icon">
                             </div>
                             <div class="skill-box skill9 git-skill">
-                                <a href="https://git-scm.com/" target="_blank"> <img class="icones-habilidades" src="/portfolio/img/git.svg" alt="git-icon"/> </a>
+                                <img class="icones-habilidades" src="./imagens/git.svg" alt="git-icon">
                             </div>
                             <div class="skill-box skill10 github-skill">
-                                <a href="https://github.com/" target="_blank"> <img class="icones-habilidades" src="/portfolio/img/github.svg" alt="github-icon"/> </a>
+                                <img class="icones-habilidades" src="./imagens/github.svg" alt="github-icon">
                             </div>
-                            <!--  <div class="skill-box skill11"> <img class="icones-habilidades" src="/portfolio/img/bootstrap.svg" alt="bootstrap-icon"> </div> -->
-                            <!--   <div class="skill-box skill12"> <img class="icones-habilidades" src="/portfolio/img/typescript.svg" alt="typescript-icon"> </div> -->
+                            <!-- <div class="skill-box skill11"> <img class="icones-habilidades" src="./imagens/bootstrap.svg" alt="bootstrap-icon"> </div> -->
+                            <!-- <div class="skill-box skill12"> <img class="icones-habilidades" src="./imagens/typescript.svg" alt="typescript-icon"> </div> -->
                         </div>
                         <div class="conteiner-descricao">
                             <p class="texto-descricao">
-                                <!-- /* Passe o mouse por cima de alguma
-                                habilidade para ler a descrição */ -->
-                                Aprimorando os meus conhecimentos.
+                                Passe o mouse por cima de alguma
+                                habilidade para ler a descrição.
                             </p>
                         </div>
                     </div>
@@ -187,30 +205,34 @@
 
         <!-- Contato -->
         <section id="contato">
-            <div class="centralizador projetos">
+            <div class="centralizador contato">
                 <h2 class="project">Contato</h2>
-                <div class="contato centralizar">
-                    <a href="mailto:viannawp@gmail.com"><p>💻viannawp@gmail.com💻</p></a> <br>
-                    <a href="https://wa.me/5511947673756" target="_blank"><p>11 94767-3756</p></a>
+                <div class="contato-itens github-link">
+                    <a href="mailto:viannawp@gmail.com">
+                        <p>💻viannawp@gmail.com💻</p>
+                    </a>
+                    <a href="https://wa.me/5511947673756" target="_blank">
+                        <p>11 94767-3756</p>
+                    </a>
                 </div>
             </div>
         </section>
-        
-        <!-- Footer -->
+
+        <!-- footer -->
         <footer class="footer">
             <div class="footer-conteiner">
                 <div class="contato-creditos"> <br>
-                    <p>Copyright &copy; 2023 - William Vianna</p> <br/>
+                    <p>Copyright &copy; 2023 - William Vianna</p> <br />
                 </div>
                 <div class="icons">
                     <div class="links links1">
                         <a href="https://github.com/viannawp" target="_blank">
-                            <img class="transparente" src="/portfolio/img/githubff.svg" alt="github-icon"/>
+                            <img class="transparente" src="./imagens/githubff.svg" alt="github-icon">
                         </a>
                     </div>
                     <div class="links links2">
                         <a href="https://www.linkedin.com/in/william-vianna-218b7b71/" target="_blank">
-                            <img class="transparente" src="/portfolio/img/linkedinff.svg" alt="github-icon"/>
+                            <img class="transparente" src="./imagens/linkedinff.svg" alt="github-icon">
                         </a>
                     </div>
                 </div>
@@ -218,9 +240,9 @@
         </footer>
 
     </div>
-    <script src="./portfolio/js/scroll.js"></script>
-    <script src="./portfolio/js/maquina_escrever.js"></script>
-    <script src="./portfolio/js/habilidades.js"></script>
+    <script src="./java_script/scroll.js"></script>
+    <script src="./java_script/maquina_escrever.js"></script>
+    <script src="./java_script/habilidades.js"></script>
 </body>
 
 </html>

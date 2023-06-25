@@ -17,6 +17,7 @@
     justify-content: start;
     gap:50px;
     padding-bottom: 70px;
+    text-align: justify;
 }
 
 .conteiner-skills {
@@ -103,56 +104,55 @@
 }
 
 .skill1{
-    background-image: url(../img/html2.svg);
+    background-image: url(../imagens/html2.svg);
 }
 
 .skill2 {
-    background-image: url(../img/css2.svg);
+    background-image: url(../imagens/css2.svg);
 }
 
 .skill3 {
-    background-image: url(../img/js2.svg);
+    background-image: url(../imagens/js2.svg);
 }
 
 .skill4 {
-    background-image: url(../img/node2.svg);
+    background-image: url(../imagens/node2.svg);
 }
 
 .skill5 {
-    background-image: url(../img/php2.svg);
+    background-image: url(../imagens/php2.svg);
 }
 
 .skill6 {
-    background-image: url(../img/java2.svg);
+    background-image: url(../imagens/java2.svg);
 }
 
 .skill7 {
-    background-image: url(../img/react2.svg);
+    background-image: url(../imagens/react2.svg);
 }
 
 .skill8 {
-    background-image: url(../img/styled\ 2.svg);
+    background-image: url(../imagens/styled\ 2.svg);
 }
 
 .skill9 {
-    background-image: url(../img/git2.svg);
+    background-image: url(../imagens/git2.svg);
 }
 
-
 .skill10 {
-    background-image: url(../img/github2.svg);
+    background-image: url(../imagens/github2.svg);
 }
 
 .skill11 {
-    background-image: url(../img/bootstrap2.svg);
+    background-image: url(../imagens/bootstrap2.svg);
 }
 
 .skill12 {
-    background-image: url(../img/typescript2.svg);
+    background-image: url(../imagens/typescript2.svg);
 }
 
 .skill13 {
-    background-image: url(../img/sass2.svg);
+    background-image: url(../imagens/sass2.svg);
 }
 
 #fundo {

@@ -2,18 +2,18 @@
     background-color: #352728;
 }
 
-.portfolio {
-    background-image: url(/portfolio/img/projetoCss.png);
+.projetocss {
+    background-image: url(../imagens/projetoCss.png);
     background-size: cover;
 }
 
 .curriculo {
-    background-image: url(/curriculo/imagens/curriculo.png);
+    background-image: url(..//imagens/curriculo.png);
     background-size: cover;
 }
 
 .beta {
-    background-image: url(/portfolio/img/portolioBeta.png);
+    background-image: url(../imagens/portolioBeta.png);
     background-size: cover;
 }
 
@@ -56,32 +56,6 @@ button:hover {
 
 .projetos a {
     display: inline;
-}
-
-.curri {
-    background-color: #C4C4C4;
-    height: 195px;
-    width: 310px;
-    border-radius: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    overflow: hidden;
-    transition: ease-in-out 0.3s;
-}
-
-.bet {
-    background-color: #C4C4C4;
-    height: 195px;
-    width: 310px;
-    border-radius: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    overflow: hidden;
-    transition: ease-in-out 0.3s;
 }
 
 .pro {
@@ -146,7 +120,6 @@ button:hover {
   }
 
 }
-
 @media (max-width:950px) {
     .pro {
         max-width: 300px;
