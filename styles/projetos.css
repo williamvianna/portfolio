@@ -17,6 +17,11 @@
     background-size: cover;
 }
 
+.projeto-contatos {
+    background-image: url(../imagens/projeto-contatos.png);
+    background-size: cover;
+}
+
 .projetos {
     padding-top: 93px;
 }
