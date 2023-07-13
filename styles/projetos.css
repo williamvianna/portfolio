@@ -2,6 +2,11 @@
     background-color: #352728;
 }
 
+.modas {
+    background-image: url(../imagens/site_modas.png);
+    background-size: cover;
+}
+
 .projetocss {
     background-image: url(../imagens/projetoCss.png);
     background-size: cover;
